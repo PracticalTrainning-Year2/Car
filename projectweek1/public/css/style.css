@@ -1,0 +1,70 @@
+.navbar {
+    width: 100%;
+}
+body{
+    background-color: rgb(112, 112, 112);
+}
+.about h1{
+    text-align: center;
+    font-size: 50px;
+    color: goldenrod;
+}
+.about p{
+    text-align: left;
+    font-size: 20px;
+    margin: 20px;
+}
+.about {
+    margin-top: 30px;
+    border: solid 2px goldenrod;
+    border-radius: 10px;
+}
+.speed{
+    margin-top: 40px;
+    border: solid 2px goldenrod;
+    border-radius: 10px;
+}
+.speed h1{
+    color: goldenrod;
+
+}
+.speed h4 {
+    text-align: center;
+}
+.speed h3 {
+   color: goldenrod ;
+}
+.speed .card{
+    margin-bottom: 10px;
+}
+.brand {
+text-align: center;
+background-color: goldenrod;
+border-radius: 4px;
+height: 60px;
+}
+.brand a{
+    text-decoration: none;
+    color: black;
+    font-size: 30px;
+    margin: 30px;
+}
+.brand a:hover{
+    background-color: goldenrod;
+}
+/* login formcss */
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
